@@ -1,7 +1,31 @@
+body{
+    background: rgb(0,10,36);
+background: linear-gradient(90deg, rgba(0,10,36,1) 0%, rgba(116,55,125,1) 35%, rgba(0,202,255,1) 100%);
+    align-items: center ;
+}
+
+h1{
+    font-size: 50px;
+}
+
 li{ 
     list-style: none;
 }
 
+textarea {
+    width: 100%;
+}
+
+.icono{
+    visibility: hidden; /* Inicialmente oculto */
+
+}
+
+.submittedTodos:hover .icono {
+    visibility: visible; 
+    display: inline;/* Mostrar al hacer hover en el contenedor */
+    text-decoration: none;
+  }
 /* 
 
     You can write your own styles here...
